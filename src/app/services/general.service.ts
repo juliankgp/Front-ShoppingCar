@@ -7,19 +7,22 @@ import { HttpClient } from "@angular/common/http";
 })
 export class GeneralService {
   baseUrl = environment.baseUrl;
-  baseUrl2 = environment.baseUrl2;
   constructor(private http: HttpClient) { }
 
   getItem(id: number) {
-    return this.http.get(this.baseUrl + "api/prductos/" + id)
+    return this.http.get(this.baseUrl + "api/Productos/ObtenerProductoPorId?id=" + id)
   }
 
   getItems() {
-    return this.http.get(this.baseUrl2 + "api/Pedido/GetProductos")
+    return this.http.get(this.baseUrl + "api/Productos/ObtenerProductos")
+  }
+
+  createItem(data : any){
+    return this.http.post(this.baseUrl + "api/Productos/CrearProducto", data)
   }
 
   getPedidos() {
-    return this.http.get(this.baseUrl + "api/Facturacion/obtenerPedidos")
+    return this.http.get(this.baseUrl + "api/Facturacion/ObtenerPedidos")
   }
 
   facturarPedidos(data:any) {
