@@ -63,12 +63,12 @@ La aplicación consta de tres repositorios para funcionar:
 
 ## Metodos
 [**API ORQ**](https://github.com/juliankgp/Orq-ShoppingCar)
-| Nombre | Método |
-| ------ | ------ |
-| getItem |[*api/Productos/ObtenerProductoPorId?id=1*](https://github.com/juliankgp/Productos-ShoppingCar) |
-| getItems | [*api/Productos/ObtenerProductos*](https://github.com/juliankgp/Productos-ShoppingCar) |
-| createItem | [*api/Productos/CrearProducto*](https://github.com/juliankgp/Productos-ShoppingCar) |
-| getPedidos  | [*api/Facturacion/ObtenerPedidos*](https://github.com/juliankgp/Logistica-ShoppingCar)|
-| facturarPedidos |[*api/Facturacion/FacturarPedido*](https://github.com/juliankgp/Logistica-ShoppingCar) |
-| guardarPedido | [*api/Facturacion/GuardarPedido*](https://github.com/juliankgp/Logistica-ShoppingCar) |
+| Nombre | Path | Método |
+| ------ | ------ | ------ |
+| getItem |[*api/Productos/ObtenerProductoPorId?id=1*](https://github.com/juliankgp/Productos-ShoppingCar) | GET	|
+| getItems | [*api/Productos/ObtenerProductos*](https://github.com/juliankgp/Productos-ShoppingCar) | GET	|
+| createItem | [*api/Productos/CrearProducto*](https://github.com/juliankgp/Productos-ShoppingCar) | POST	|
+| getPedidos  | [*api/Facturacion/ObtenerPedidos*](https://github.com/juliankgp/Logistica-ShoppingCar)| GET |
+| facturarPedidos |[*api/Facturacion/FacturarPedido*](https://github.com/juliankgp/Logistica-ShoppingCar) |POST|
+| guardarPedido | [*api/Facturacion/GuardarPedido*](https://github.com/juliankgp/Logistica-ShoppingCar) |POST|
 
