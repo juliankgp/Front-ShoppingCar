@@ -1,0 +1,32 @@
+#imgBuy {
+    width: 45%;
+    -webkit-text-align: end;
+    margin: auto;
+    // cursor: ;
+}
+
+#imgPedido {
+    width: 40%;
+    -webkit-text-align: end;
+    margin: auto;
+}
+
+#cards {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 16px;
+    box-shadow: 5px 5px 15px  rgb(214, 214, 216), -5px -5px 15px rgb(223, 213, 213);
+    -webkit-width: 308px;
+    -webkit-height: 150px;
+    -webkit-margin: 40px auto;
+    -webkit-border-radius: 16px;
+    -webkit-box-shadow: 5px 5px 15px rgb(214, 214, 216), -5px -5px 15px rgb(223, 213, 213);
+}
+
+.font-cool{
+    font-weight:  900;
+}
