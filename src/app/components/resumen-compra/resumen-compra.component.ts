@@ -124,6 +124,7 @@ export class ResumenCompraComponent implements OnInit {
               showConfirmButton: false,
               timer: 4000
             })
+            sessionStorage.clear()
             this.router.navigate(["/pedidos"]);
           }
         }, (error) => {

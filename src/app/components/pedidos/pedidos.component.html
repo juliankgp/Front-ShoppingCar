@@ -43,11 +43,16 @@
                     <div class="card">
                         <div *ngFor="let producto of pedido.productos; index as i" class="row">
                             <div class="col-md-3">
-                                <h5 class="">{{producto.nombre}}</h5>
+                                <div class="text-center">
+
+                                    <h5 class="">{{producto.nombre}}</h5>
+                                </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-4">
-                                    <img src="{{producto.img}}" id="img" class="img-fluid rounded-start" alt="...">
+                                <div class="col-md-3">
+                                    <div class="text-center">
+                                        <img src="{{producto.img}}" id="img" class="img-fluid rounded-start" alt="...">
+                                    </div>
                                 </div>
                                 <div class="col-md-2">
                                     <p class="">Id: {{producto.idProducto}}</p>
