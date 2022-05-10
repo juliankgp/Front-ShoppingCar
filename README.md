@@ -62,19 +62,12 @@ La aplicación consta de tres repositorios para funcionar:
 [**Orq-ShoppingCar**](https://github.com/juliankgp/Orq-ShoppingCar): Este repositorio es un API que se encarga de gestionar todas las peticiones del Frontend, dependiendo de lo que necesite hace un llamado a otras apis, o devuelve la información pertinente. 
 
 ## Metodos
-
-
- [*API Productos*](https://github.com/juliankgp/Productos-ShoppingCar)
+[**API ORQ**](https://github.com/juliankgp/Orq-ShoppingCar)
 | Nombre | Método |
 | ------ | ------ |
 | getItem |[*api/Productos/ObtenerProductoPorId?id=1*](https://github.com/juliankgp/Productos-ShoppingCar) |
 | getItems | [*api/Productos/ObtenerProductos*](https://github.com/juliankgp/Productos-ShoppingCar) |
 | createItem | [*api/Productos/CrearProducto*](https://github.com/juliankgp/Productos-ShoppingCar) |
-
-
-[**Api Logística**](https://github.com/juliankgp/Logistica-ShoppingCar)
-| Nombre | Método |
-| ------ | ------ |
 | getPedidos  | [*api/Facturacion/ObtenerPedidos*](https://github.com/juliankgp/Logistica-ShoppingCar)|
 | facturarPedidos |[*api/Facturacion/FacturarPedido*](https://github.com/juliankgp/Logistica-ShoppingCar) |
 | guardarPedido | [*api/Facturacion/GuardarPedido*](https://github.com/juliankgp/Logistica-ShoppingCar) |
