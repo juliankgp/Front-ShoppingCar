@@ -1,0 +1,17 @@
+<!-- <div class="body-back"> -->
+<div id="fullHeight">
+
+  <app-navbar></app-navbar>
+  <div class="align-text-middle">
+
+    <router-outlet></router-outlet>
+  </div>
+  <div [hidden]="!loadingService.active" class="align-text-middle">
+    <div class="container">
+      <div class="text-center">
+        <div class="spinner-border ms-auto" style="width: 3rem; height: 3rem;" role="status" aria-hidden="true"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- </div> -->

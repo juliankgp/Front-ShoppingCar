@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="d-flex align-items-center">
+        <!-- <h1 class="text-center m-4 font-cool">Carrito de compras Tuya</h1> -->
+        <div id="cards" class="card" style="width: 18rem;">
+            <div class="hover-move">
+                <div class="card-body" (click)="comprar()">
+
+                    <div class="text-center">
+                        <h3 class="card-title m-3 font-cool"> <b>Compras</b> </h3>
+                        <img id="imgBuy" src="assets/images/shopping-bag.svg" alt="">
+                        <!-- <div>
+                            En esta opción podras realizar compras del listado de articulos disponibles en nuestro
+                            inventario
+                        </div> -->
+
+                    </div>
+                    <div class="text-center">
+                        <button type="button" style="width: 110px;" (click)="comprar()" class="btn btn-danger m-3">A
+                            comprar!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cards" class="card" style="width: 18rem;">
+        <div class="hover-move">
+
+            <div class="card-body" (click)="pedidos()">
+                <div class="text-center">
+                    <h3 class="card-title m-3 font-cool"><b> Pedidos</b></h3>
+                    <img id="imgPedido" src="assets/images/pedido3.svg" alt="">
+                    <!-- <div>
+                        En esta opción podras revisar todos los pedidos que has realizado
+                    </div> -->
+                </div>
+                <div class="text-center">
+                    <button type="button" (click)="pedidos()" style="width: 110px;"
+                        class="btn btn-danger m-4">Ver</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="d-flex align-items-center">
+        <div class="circular--portrait">
+            <div class="card-body" (click)="pedidos()">
+                <div class="text-center">
+                    <h3 class="card-title m-3 font-cool"><b> Pedidos</b></h3>
+                    <img id="imgPedido" src="assets/images/shopping-bag.svg" alt="">
+                    <div>
+                        En esta opción podras revisar todos los pedidos que has realizado
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="button" (click)="pedidos()" class="btn btn-primary m-4">Ver mis pedidos</button>
+                </div>
+
+                <div class="text-center"> </div>
+            </div>
+        </div>
+    </div> -->
+</div>

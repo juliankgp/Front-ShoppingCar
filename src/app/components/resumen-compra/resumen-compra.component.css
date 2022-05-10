@@ -1,0 +1,23 @@
+.value-subtotal {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: end;
+}
+
+.subtotal-text {
+    margin-right: 30px;
+    font-size: 20px;
+    text-align: start;
+}
+
+.value-total {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.total-text {
+    margin-right: 30px;
+    font-size: 25px;
+    text-align: center;
+}
