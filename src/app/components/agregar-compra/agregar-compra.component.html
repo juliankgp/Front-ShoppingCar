@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="d-flex align-items-center">
+    <div class="card mb-3" id="cards2" style="max-width: 80%;">
+      <div class="row g-0">
+        <div class="text-center">
+          <div class="card-header mb-2">
+            <h1 class="card-title">{{product.nombre}}</h1>
+          </div>
+          <div class="col-md-12">
+            <img src="{{product.img}}" id="img" class="img-fluid rounded-start" alt="...">
+          </div>
+        </div>
+        <hr>
+        <div class="col-md-12">
+          <div class="card-body">
+            <h4>${{product.precio}}</h4>
+            <p class="card-text">{{product.descripcion}}</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="text-end">
+            <button type="button" style="width: 110px;" (click)="agregar(product)"
+              class="btn btn-danger m-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Agregar</button>
+            <button type="button" style="width: 110px;" (click)="comprar(product)" class="btn btn-danger m-3">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
