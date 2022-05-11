@@ -35,6 +35,10 @@ NOTA: Se debe tener configurado un ambiente para poder ejecutar un proyecto de a
 
 Tenga en cuenta las indicaciónes dadas anteriormente en **¿Como funciona?**
 
+Si nunca ha corrido un proyecto en angular se recomienda seguira estas intrucciones para poder ejecutarlo
+[**Aprende a crear tu primera aplicación Angular en 20 minutosr**](https://www.freecodecamp.org/espanol/news/aprende-a-crear-tu-primera-aplicacion-angular-en-20-minutos/)
+
+
 Descargue el proyecto en una ruta en su PC, y abra la carpeta con su editor de código con un consola pararse en la ubicación de los archivos
 
 
